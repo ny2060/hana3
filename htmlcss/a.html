@@ -4,20 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.5">
     <title>HTML5 Document type</title>
-    <style>
-        .bg-red {
-            background-color: red;
-        }
-    </style>
+    <link rel = "stylesheet" href="a.css"/>
 </head>
-<body>
+<p>
+  <div class="container">
+    
+  </div>
     <h1>My First HTML Page </h1>
-    <div class="bg-red" aria-hidden="true">
+    <div onclick="ff()" class="bg-red" aria-hidden="true">
         <img src="https://images.unsplash.com/photo-1705783679154-c47fab616434?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8"
         width="200" height="300" alt="풍경">
     </div>
     <!-- 콘텐츠 영역 -->
-</body>
+    <input type="number" id="num"/>
+
+    <script>
+      function ff() {
+        var ele = document.getElementById('num')
+        console.log('click',num)
+      }
+    </script>
+</p>
 
 
 
