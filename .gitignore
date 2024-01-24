@@ -1,0 +1,6 @@
+ignore.txt
+.DS_Store
+.vscode
+.vscode/*
+tt
+node_modules
